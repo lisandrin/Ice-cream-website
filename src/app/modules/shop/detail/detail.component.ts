@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router, ActivatedRoute } from '@angular/router';
+import { Product } from '../product';
+import { ShopService } from '../../../services/shop.service';
 @Component({
   selector: 'app-detail',
   templateUrl: './detail.component.html',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailComponent implements OnInit {
 
-  constructor() { }
+  item: Product;
+  constructor(private actRoute: ActivatedRoute,
+    private userService:ShopService) { }
 
   ngOnInit(): void {
+    this.loadUsers();
   }
 
+  loadUsers(){
+    const productId = this.actRoute.snapshot.paramMap.get('id');
+    this.userService.getById(productId).subscribe(data => this.item = data)
+  }
 }

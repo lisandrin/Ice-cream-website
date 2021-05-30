@@ -9,13 +9,13 @@ const routes: Routes = [
         component: ListComponent
     },
     {
-        path: 'Detail',
+        path: 'detail/:id',
         component: DetailComponent
     }
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
+    imports: [RouterModule.forChild(routes)],
     exports: [RouterModule]
 })
 

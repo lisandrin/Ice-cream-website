@@ -1,1 +1,52 @@
-<p>detail works!</p>
+<section class="head-backgroud" style="background-image: url(/assets/shop-imgs/parallax-10.jpg);">
+    <div class="container">
+      <div class="wrapper">
+        <div class="header-text">
+          <h1>Product</h1>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="product__detail__content">
+    <div class="container">
+        <div class="product__detail__wrapper">
+            <div class="product__items">
+                <div class="product__item">
+                    <div class="image">
+                        <img src="{{item.imageUrl}}" alt="">
+                    </div>
+                    <div class="item__text">
+                        <h3>{{item.name}}</h3>
+                        <div class="price__text">
+                            <span class="dollar-span">$</span> 
+                            <span class="price-num">{{item.price}}</span>
+                        </div>
+                        <div class="p__wrapper">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et.
+                            </p>
+                        </div>
+                        <div class="item__tags">
+                            <div class="tag">
+                                <span>Category:</span>
+                                <a>Our Shop</a>
+                            </div>
+                            <div class="tag">
+                                <span>Tag:</span>
+                                <a>Promotion</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="product__description">
+                    <h3>Description</h3>
+                    <p>{{item.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

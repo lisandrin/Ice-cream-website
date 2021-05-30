@@ -1,59 +1,117 @@
 {
   "products": [
     {
-      "'id'": 1,
+      "id": 1,
       "name": "Cherry",
-      "price": "$ 3.00",
-      "description": "Mix flavour ice cream",
+      "price": "3.00",
+      "description": "Cherry Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.",
       "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-1.jpg"
     },
     {
-      "'id'": 2,
+      "id": 2,
       "name": "Chocolate",
-      "price": "$ 3.00",
-      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "price": "3.00",
+      "description": "Chocolate Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.",
       "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-5.jpg"
     },
     {
-      "'id'": 3,
+      "id": 3,
       "name": "Cream",
-      "price": "$ 2.00",
-      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "price": "2.00",
+      "description": "Cream Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.",
       "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-4.jpg"
     },
     {
-      "'id'": 4,
+      "id": 4,
       "name": "Melon",
-      "price": "$ 5.00",
-      "description": "Mix flavour ice cream",
+      "price": "5.00",
+      "description": "Melon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.",
       "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-6.jpg"
     },{
-      "'id'": 5,
+      "id": 5,
       "name": "Popcorn",
-      "price": "$ 10.00",
-      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ui dolorem ipsum quia dolor sit am ui dolorem ipsum quia dolor sit am",
+      "price": "10.00",
+      "description": "Popcorn Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.",
       "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-2.jpg"
     },
     {
-      "'id'": 6,
+      "id": 6,
       "name": "Rose",
-      "price": "$ 3.00",
-      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ui dolorem ipsum quia dolor sit am ui dolorem ipsum quia dolor sit am",
+      "price": "3.00",
+      "description": "Rose Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.",
       "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-1.jpg"
     },
     {
-      "'id'": 7,
+      "id": 7,
       "name": "Vanila",
-      "price": "$ 6.00",
-      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ui dolorem ipsum quia dolor sit am ui dolorem ipsum quia dolor sit am",
+      "price": "6.00",
+      "description": "Vanila Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.",
       "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-2.jpg"
     },
     {
-      "'id'": 8,
+      "id": 8,
       "name": "Yogurt",
-      "price": "$ 4.00",
-      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ui dolorem ipsum quia dolor sit am ui dolorem ipsum quia dolor sit am",
+      "price": "4.00",
+      "description": "Yogurt Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar. Donec non eleifend augue, id tristique nisi. Nunc in leo augue. Cras sapien quam, dictum et molestie id, ultricies et enim. Fusce malesuada augue augue, ut sodales purus dignissim sed. Praesent dignissim placerat ligula a efficitur lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at felis laoreet massa cursus pulvinar.",
       "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-3.jpg"
+    }
+  ],
+  "promoted":[
+    {
+      "id": 1,
+      "name": "MINT CHOCOLATE",
+      "price": "8,80",
+      "description": "Chocolate sauce, chocolate shavings oreos",
+      "imageUrl": "/assets/about-imgs/img-08.jpg"
+    },
+    {
+      "id": 2,
+      "name": "COOKIES N'CREAM",
+      "price": "5,80",
+      "description": "Cookie dough, caramel sauce, sea salt",
+      "imageUrl": "/assets/about-imgs/img-07.jpg"
+    },
+    {
+      "id": 3,
+      "name": "BUTTERED PECAN",
+      "price": "15,8",
+      "description": "Crushed toffee pieces, blueberries",
+      "imageUrl": "/assets/about-imgs/img-10.jpg"
+    },
+    {
+      "id": 4,
+      "name": "DARK CHOCOLATE",
+      "price": "7,80",
+      "description": "Strawberry sauce, butterscotch, sprinkles",
+      "imageUrl": "/assets/about-imgs/img-11.jpg"
+    },
+    {
+      "id": 5,
+      "name": "COOKIE DOUGH",
+      "price": "8,80",
+      "description": "Fresh blueberries, caramel sauce, M&Ms",
+      "imageUrl": "/assets/about-imgs/img-04.jpg"
+    },
+    {
+      "id": 6,
+      "name": "FRESH VANILLA",
+      "price": "13,30",
+      "description": "Hot fudge, cookie crumbles, strawberries",
+      "imageUrl": "/assets/about-imgs/img-06.jpg"
+    },
+    {
+      "id": 7,
+      "name": "MOOSE TRACKS",
+      "price": "12,80",
+      "description": "Hot fudge, mini peanut butter cups",
+      "imageUrl": "/assets/about-imgs/img-08-1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "CHOCO COOKIE",
+      "price": "10,80",
+      "description": "Chocolate sauce, peanut butter cups",
+      "imageUrl": "/assets/about-imgs/img-09.jpg"
     }
   ]
 }

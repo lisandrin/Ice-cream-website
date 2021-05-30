@@ -1,0 +1,70 @@
+<section class="head-backgroud" style="background-image: url(/assets/shop-imgs/parallax-9.jpg);">
+    <div class="container">
+      <div class="wrapper">
+        <div class="header-text">
+          <h1>About Us</h1>
+        </div>
+      </div>
+    </div>
+</section>
+<section class="about-shop">
+    <div class="container">
+        <div class="about-wrapper">
+            <div class="top-text">
+                <div class="h3-text">
+                    <h3>
+                        Hi! Our Shop has been present for over 20 years in the city. We make the most of all our customers.
+                    </h3>
+                </div>
+                <div class="p-wrapper">
+                    <p>
+                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et quisque
+                    </p>
+                    <p>
+                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et quisque
+                    </p>
+                    <p>
+                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et quisque
+                    </p>
+                    <p>
+                        Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et quisque
+                    </p>
+                </div>
+            </div>
+            <div class="about-video">
+                <div class="video-wrapper">
+                    <div class="video-img">
+                        <a class=" nd_options_outline_0 nd_options_mpopup_iframe" href="https://www.youtube.com/watch?v=zSI7v9QeBuI">
+                            <img width="80px" alt="" src="/assets/about-imgs/player.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="promotions-wrapper">
+                <div class="header-text">
+                    <span></span>
+                    <h2>- Promotions -</h2>
+                    <span class="span-text">create your own</span>
+                </div>
+                <div class="promotions-items">
+                    <div class="promotion-item" *ngFor="let item of promotedList">
+                        <div class="image">
+                            <img [src]="item.imageUrl" alt="">
+                        </div>
+                        <div class="item-text">
+                            <h3>{{item.name}}</h3>
+                            <p>{{item.description}}</p>
+                        </div>
+                        <div class="price-text">
+                            <span>
+                                <span class="dollar-text">$</span> 
+                                {{item.price}}
+                            </span>
+                            <a>new</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

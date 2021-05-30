@@ -10,9 +10,34 @@
     font-family: 'Gilda Display';
     font-weight: 500;
 }
+:root {
+    --scrollbarBg: #C3DCDF;
+    --scrollbarThumb: rgba(255, 255, 255, 0.8);
+    --scrollbarWidth: 12px;
+    --scrollbarBorder: 3px solid var(--scrollbarBg);
+}
+body {
+    scrollbar-width: var(--scrollbarWidth);
+    scrollbar-color: var(--scrollbarThumb) var(--scrollbarBg);
+}
+body::-webkit-scrollbar {
+    width: var(--scrollbarWidth);
+}
+body::-webkit-scrollbar-track {
+    background: var(--scrollbarBg);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbarThumb);
+    border-radius: 6px;
+    border: var(--scrollbarBorder);
+}
 @font-face {
     font-family: 'Joshico-regular';
     src: url('assets/fonts/Joshico-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Open sans';
+    src: url('assets/Fonts/opensans.ttf') format('truetype');
 }
 .container{
     width: 1350px;
@@ -24,4 +49,36 @@ h1, h2 {
     font-size: 5em;
     line-height: 1em;
     color: #444;
+}
+
+p, span{
+    font-family: 'Open sans';
+}
+
+.head-backgroud{
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .wrapper{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+
+        .header-text{
+            
+
+            h1{
+                margin-top: 1.3em;
+                margin-bottom: 1.3em;
+                color: #fff;
+                z-index: 1111;
+            }
+        }
+    }
 }

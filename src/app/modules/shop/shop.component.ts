@@ -11,7 +11,6 @@ export class ShopComponent implements OnInit {
   constructor(private list: ListComponent) { }
 
   ngOnInit(): void {
-    this.list.getProducts();
   }
 
 }

@@ -11,29 +11,11 @@
     height: auto;
     padding-bottom: 2em;
 
-    .contact__top__pic{
-        width: 100%;
-        display: block;
-        height: 300px;
-        background-image: url(/assets/cont-imgs/parallax-7.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        align-items: center;
-        padding-top: 6em;
-
-        h2{
-            color: #fff;
-            text-align: center;
-            font-size: 4em;
-        }
-    }
-
     .contact__info{
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        column-gap: 20px;
+        gap: 30px;
         height: auto;
         margin-top: 3em;
 
@@ -56,10 +38,11 @@
                     font-size: 2em;
                 }
                 p{
-                    line-height: 1.7em;
-                    font-size: 1.1em;
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-weight: 200;
+                    width: 90%;
+                    line-height: 2em;
+                    font-size: 1em;
+                    font-family: 'Open sans',sans-serif;
+                    letter-spacing: 1.5px;
                     color: #888;
                 }
             }
@@ -130,6 +113,10 @@
             width: 100%;
             height: 350px;
             background-color: #B4C9CD;
+
+            iframe{
+                width: 100%;
+            }
         }
 
         .contact__address__list{
@@ -142,16 +129,17 @@
             li{
                 list-style: none;
                 display: flex;
-                width: 100%;
+                width: 90%;
                 margin: 10px;
                 justify-content: space-between;
                 border-bottom: 1px solid rgb(231, 231, 231);
-                padding: 1em;
+                padding-bottom: 1em;
+                padding-top: 1em;
 
                 label{
-                    color: rgb(82, 82, 82);
-                    font-size: 1.1em;
-                    font-family: Arial, Helvetica, sans-serif;
+                    color: #7e7e7e;
+                    font-size: 1.3em;
+                    // font-family: 'Open sans', sans-serif;
                     text-align: left;
                     font-weight: 100;
                 }
