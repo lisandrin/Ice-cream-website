@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilda Display';
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Joshico-regular';
+    src: url('assets/fonts/Joshico-Regular.ttf') format('truetype');
+}
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+h1, h2 {
+    font-family: 'Joshico-regular';
+    font-weight: 400;
+    font-size: 5em;
+    line-height: 1em;
+    color: #444;
+}

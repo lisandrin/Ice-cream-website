@@ -1,0 +1,30 @@
+<header>
+    <div class="container">
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <div class="logo">
+                    <img src="/assets/main-imgs/logo.png" alt="#logo">
+                </div>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li>
+                        <a [routerLink] = "['']" [routerLinkActiveOptions] ="{exact: true}" routerLinkActive = "activeLink">Home</a>
+                    </li> 
+                    <li>
+                        <a [routerLink] = "['/About']"routerLinkActive = "activeLink" >About us</a>
+                    </li>
+                    <li>
+                        <a [routerLink] = "['/list']" routerLinkActive = "activeLink">Shop</a>
+                    </li>
+                    <li>
+                        <a [routerLink] = "['/Blog']"routerLinkActive = "activeLink" >Blog</a>
+                    </li>
+                    <li>
+                        <a [routerLink] = "['/contact']" routerLinkActive = "activeLink">Contact</a>
+                    </li>
+                </ul> 
+            </nav>
+        </div>
+    </div>
+</header>

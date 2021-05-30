@@ -1,0 +1,59 @@
+{
+  "products": [
+    {
+      "'id'": 1,
+      "name": "Cherry",
+      "price": "$ 3.00",
+      "description": "Mix flavour ice cream",
+      "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-1.jpg"
+    },
+    {
+      "'id'": 2,
+      "name": "Chocolate",
+      "price": "$ 3.00",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-5.jpg"
+    },
+    {
+      "'id'": 3,
+      "name": "Cream",
+      "price": "$ 2.00",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-4.jpg"
+    },
+    {
+      "'id'": 4,
+      "name": "Melon",
+      "price": "$ 5.00",
+      "description": "Mix flavour ice cream",
+      "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-6.jpg"
+    },{
+      "'id'": 5,
+      "name": "Popcorn",
+      "price": "$ 10.00",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ui dolorem ipsum quia dolor sit am ui dolorem ipsum quia dolor sit am",
+      "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-2.jpg"
+    },
+    {
+      "'id'": 6,
+      "name": "Rose",
+      "price": "$ 3.00",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ui dolorem ipsum quia dolor sit am ui dolorem ipsum quia dolor sit am",
+      "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-1.jpg"
+    },
+    {
+      "'id'": 7,
+      "name": "Vanila",
+      "price": "$ 6.00",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ui dolorem ipsum quia dolor sit am ui dolorem ipsum quia dolor sit am",
+      "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-2.jpg"
+    },
+    {
+      "'id'": 8,
+      "name": "Yogurt",
+      "price": "$ 4.00",
+      "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ui dolorem ipsum quia dolor sit am ui dolorem ipsum quia dolor sit am",
+      "imageUrl": "https://planet-themes.com/themes/food/wp/demo/ice-cream/wp-content/uploads/sites/2/2020/02/shop-3.jpg"
+    }
+  ]
+}

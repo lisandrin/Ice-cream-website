@@ -1,0 +1,75 @@
+.history{
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 70px;
+    background-image: url(/assets/main-imgs/history_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .history__wrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+
+        .history__text{
+            display: inline-block;
+            text-align: center;
+            margin-top: 5em;
+
+            span{
+                text-transform: uppercase;
+                font-size: 1em;
+                color: #666;
+                letter-spacing: 3px;
+            }
+
+            h2{
+                margin-top: 0.2em;
+            }
+            
+            .p__wrapper{
+                margin-top: 1em;
+                line-height: 2em;
+                font-size: 1.1em;
+                letter-spacing: 1px;
+                padding-left: 3em;
+                padding-right: 3em;
+                color: #666;
+            }
+
+            button{
+                width: 200px;
+                margin-top: 2em;
+                border-radius: 8px;
+                background-color: #B2CFD6;
+                padding: 1em;
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 1.1em;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                letter-spacing: 2px;
+            }
+        }
+
+        .history__pic{
+            width: 100%;
+            height: auto;
+            margin-top: 3em;
+
+            .pic{
+                width: 500px;
+                height: 500px;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+
+.product__wrapper{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-top: 2em;
+    margin-bottom: 2em;  
+
+    .product__list{
+        width: 100%;
+        display: flex;
+
+        .card{
+            width: 100%;
+            height: auto;
+
+            .card-body-text{
+                text-align: center;
+            }
+
+            .btn-group{
+                width: 100%;
+                display: inline-block;
+                margin-top: 1em;
+
+                .btn{
+                    padding: 1em;
+                    width: 150px;
+                    background-color: palevioletred;
+                    border-radius: 7px;
+                    outline: none;
+                    border: none;
+                    color: #fff;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
