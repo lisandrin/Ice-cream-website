@@ -10,6 +10,7 @@ export class NoPageFoundComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  
   }
 
 }

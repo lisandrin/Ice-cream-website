@@ -1,10 +1,10 @@
 import { NgModule } from "@angular/core"
 import { RouterModule, Routes } from "@angular/router"
 import { ContactComponent } from "./modules/contact/contact.component";
-import { HeaderComponent } from "./components/header/header.component";
+import { HeaderComponent } from "./shared/header/header.component";
 import { MainComponent } from "./modules/main/main.component";
 import { AboutComponent } from "./modules/about/about.component";
-import { NoPageFoundComponent } from "./components/no-page-found/no-page-found.component";
+import { NoPageFoundComponent } from "./shared/no-page-found/no-page-found.component";
 
 const routes: Routes = [
     {
@@ -24,7 +24,7 @@ const routes: Routes = [
         component: AboutComponent
     },
     {
-        path: '***',
+        path: '**',
         component: NoPageFoundComponent
     }
 ];

@@ -1,0 +1,29 @@
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+    position: relative;
+
+    img{ width:100%;}
+
+    .four_zero_four_bg{
+        background-image: url(http://zornet.ru/Abavaga/dribbble_1.gif);
+        height: 500px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: block;
+
+        .error-text{
+            font-size:80px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+    .contant_box_404{ 
+       width: 100%;
+       text-align: center;
+       font-size: 1.3em;
+
+       h3{
+            font-size:80px;
+            z-index: -1;
+        }
+    }
+}
