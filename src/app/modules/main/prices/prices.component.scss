@@ -44,42 +44,26 @@ section{
             height: auto;
             display: grid;
             grid-template-rows: 30% 70%;
+        }
 
-            .prices__dots{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                gap: 20px;
-                width: 100%;
-                height: 1px;
-                margin: 3em 1em;
-                align-items: center;
+        .prices__items{
+            width: 100%;
+            height: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
 
-                .hr{
-                    width: 88%;
-                    border-bottom: 1px solid #888;
-                    justify-content: center;
-                    text-align: center;
-                    position: relative;
-
-                    span{
-                        width: 30px;
-                        height: 30px;
-                        background: #fff;
-                        position: absolute;
-                        top: -15px;
-                        border: 7px solid #dab3c9;
-                        border-radius: 50%;
-                    }
-                }
+            @media (max-width: 909px) {
+                grid-template-columns: 1fr;
             }
 
-            .prices__steps__text{
+            .item{
                 width: 100%;
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                gap: 15px;
+                height: auto;
+                display: inline-block;
+                padding-top: 1em;
 
-                .item{
+                .item__text{
                     width: 100%;
                     height: 300px;
                     text-align: center;
@@ -107,105 +91,122 @@ section{
                         margin-top: 1em;
                     }
                 }
-            }
-        }
 
-        .prices__items{
-            width: 100%;
-            height: auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 15px;
-
-            .item{
-                width: 100%;
-                height: 350px;
-                display: inline-block;
-                padding-top: 2em;
-                color: #fff;
-
-                &:nth-child(1){
-                    background-color: #B2C8CB;
+                .prices__dots{
+                    display: flex;
+                    gap: 20px;
+                    width: 100%;
+                    height: 1px;
+                    padding: 1em;
+                    align-items: center;
+    
+                    .hr{
+                        width: 100%;
+                        border-bottom: 1px solid #888;
+                        text-align: center;
+                        position: relative;
+    
+                        span{
+                            width: 30px;
+                            height: 30px;
+                            background: #fff;
+                            position: absolute;
+                            top: -15px;
+                            left: 46%;
+                            border: 7px solid #dab3c9;
+                            border-radius: 50%;
+                        }
+                    }
                 }
 
-                &:nth-child(2){
-                    background-image: url(/assets/main-imgs/prices-imgs/pink-bg.png);
-                    background-size: cover;
-                    background-position: center center;
-                    background-repeat: no-repeat;
-                    justify-content: center;
-                    text-align: center;
-
-                    img{
-                        width: 70px;
-                        margin-top: 3em;
+                .item__card{
+                    width: 100%;
+                    height: 350px;
+                    display: inline-block;
+                    padding-top: 2em;
+                    color: #fff;
+                    position: relative;
+    
+                    p{
+                        font-size: 1.1em;
+                        line-height: 1em;
+                        margin-top: 5em;
+                        text-align: center;
                     }
                     
-                }
-
-                &:nth-child(3){
-                    background-color: #B0C1D1;
-                }
-
-                p{
-                    font-size: 1.1em;
-                    line-height: 1em;
-                    margin-top: 5em;
-                    text-align: center;
-                }
-
-                h3{
-                    padding: px;
-                    text-align: center;
-                    font-size: 28px;
-                    line-height: 25px;
-                    letter-spacing: 1px;
-                    font-weight: normal;
-                    margin-top: 1em;
-                    margin-bottom: 1em;
-                }
-
-                span{
-                    text-align: center;
-                    font-size: 14px;
-                    line-height: 14px;
-                    letter-spacing: 2px;
-                    margin-top: 1em;
-                    font-weight: bold;
-                }
-
-                .item__inner_list{
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    gap: 10px;
-
-                    ul{
-                        display: inline-block;
+                    .item__card__text{
                         text-align: center;
+                        
+                        h3{
+                            font-size: 28px;
+                            line-height: 25px;
+                            letter-spacing: 1px;
+                            font-weight: normal;
+                            margin-top: 1em;
+                            margin-bottom: 1em;
+                        }
+        
+                        span{
+                            font-size: 14px;
+                            line-height: 14px;
+                            letter-spacing: 2px;
+                            margin-top: 1em;
+                            font-weight: bold;
+                        }
 
-                        li{
-                            margin: 20px;
-                            list-style-type: none;
-                            font-size: 1.2em;
+                        .cart{
+                            width: 70px;
+                            margin-top: 3em;
+                            transform: translate(10%,0);
                         }
                     }
-                }
-
-                .prices__owner{
-                    width: 100%;
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 2em;
-                    img{
-                        width: 50px;   
-                    }
-                    .prices__owner__text{
-                        margin:0.6em;
-                        h5{
-                            font-size: 1em;
-                            line-height: 1em;
-                            text-transform: uppercase;
+    
+                    .item__inner_list{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        gap: 10px;
+    
+                        ul{
+                            display: inline-block;
+                            text-align: center;
+    
+                            li{
+                                margin: 20px;
+                                list-style-type: none;
+                                font-size: 1.2em;
+                            }
                         }
+                    }
+    
+                    .prices__owner{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 2em;
+                        img{
+                            width: 50px;   
+                        }
+                        .prices__owner__text{
+                            margin:0.6em;
+                            h5{
+                                font-size: 1em;
+                                line-height: 1em;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+
+                    .bg-card{
+                        position: absolute;
+                        bottom: 0;
+                        background-size: cover;
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        justify-content: center;
+                        text-align: center;
+                        z-index: -1;
+                        height: 350px;
+                        width: 100%;
                     }
                 }
             }
@@ -223,6 +224,11 @@ section{
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         padding-bottom: 2em;
+        
+
+        @media (max-width: 909px) {
+            grid-template-columns: 1fr;
+        }
 
         .summer__prices__text{
             width: 100%;
@@ -257,6 +263,10 @@ section{
                 display:grid;
                 grid-template-columns: 1fr 1fr 1fr;
 
+                @media (max-width: 909px) {
+                    grid-template-columns: 1fr;
+                }
+
                 p{
                     font-size: 3em;
                     font-weight: bold;
@@ -278,9 +288,14 @@ section{
             grid-template-columns: 1fr 1fr;
             gap: 20px;
             padding-top: 2em;
+           
+
+            @media (max-width: 909px) {
+                grid-template-columns: 1fr;
+            }
 
             .card{
-                width: 90%;
+                width: 100%;
                 height: 100%;
                 margin-top: 3em;
                 background-color: #fff;
@@ -300,6 +315,7 @@ section{
                     padding-top: 1.5em;
                     border-bottom: 1px solid rgb(214, 214, 214);
                     padding-bottom: 2em;
+                   
 
                     h4{
                         font-size: 3em;

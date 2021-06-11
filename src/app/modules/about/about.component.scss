@@ -16,12 +16,22 @@
             grid-template-columns:  1fr 1fr;
             gap: 4em;
 
+            @media (max-width: 939px) {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
             .h3-text{
                 font-size: 2.3em;
                 line-height: 1.8em;
                 color: rgb(63, 63, 63);
                 text-align: right;
                 padding-left: 3em;
+                
+                @media (max-width: 939px) {
+                    text-align: center;
+                    padding: 0;
+                }
                 
                 h3{
                     letter-spacing: 1px;
@@ -35,6 +45,10 @@
                 grid-template-columns: 1fr 1fr;
                 gap: 20px;
                 margin-top: 1em;
+
+                @media (max-width: 939px) {
+                    grid-template-columns: 1fr;
+                }
 
                 p{
                     color: #777;
@@ -58,8 +72,9 @@
             .video-wrapper{
                 width: 66.6%;
                 position: absolute;
-                top: 2em;
-                left: 14em;
+                // top: 2em;
+                // left: 14em;
+                transform: translate(25%, 0);
                 text-align: center;
 
                 .video-img{
@@ -121,6 +136,10 @@
                 gap:20px;
                 padding-top: 2em;
 
+                @media (max-width: 1200px) {
+                    grid-template-columns: 1fr;
+                }
+
                 .promotion-item{
                     width: 100%;
                     display: grid;
@@ -129,6 +148,12 @@
                     height: auto;
                     align-items: center;
                     margin-top: 0.5em;
+
+                    @media (max-width: 473px) {
+                        justify-content: center;
+                        grid-template-columns: 88%;
+                        text-align: center;
+                    }
 
                     .image{
                         
@@ -142,6 +167,10 @@
                         width: 100%;
                         text-align: left;
                         margin-left: 1em;
+
+                        @media (max-width: 473px) {
+                            text-align: center;
+                        }
     
                         h3{
                             margin-bottom: 0.6em;
@@ -164,12 +193,22 @@
                         grid-template-rows: 1fr 1fr;
                         height: auto;
 
+                        @media (max-width: 473px) {
+                            grid-template-rows: none;
+                            grid-template-columns: 1fr;
+                            text-align: center;
+                        }
+
                         span{
                             text-align: right;
                             font-weight: 600;
                             color: #333;
                             font-size: 1.15em;
                             font-family: 'Gilda Display';
+
+                            @media (max-width: 473px) {
+                                text-align: center;
+                            }
 
                             .dollar-text{
                                 font-size: 1.4em;

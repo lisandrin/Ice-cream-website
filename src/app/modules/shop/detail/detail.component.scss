@@ -1,3 +1,10 @@
+h1{
+
+    @media (max-width: 417px ) {
+        font-size: 3em;
+    }
+}
+
 .product__detail__content{
     width: 100%;
     display: flex;
@@ -24,6 +31,10 @@
             padding-top: 1.5em;
             padding-bottom: 1.5em;
 
+            @media (max-width: 1051px ) {
+                grid-template-columns: 1fr;
+            }
+
             .image{
                 width: 100%;
                 justify-content: center;
@@ -33,6 +44,11 @@
                     width: 650px;
                     height: 600px;
                     background-position:center center;
+
+                    @media (max-width: 691px ) {
+                        width: 100%;
+                        height: auto;
+                    }
                 }
             }
             .item__text{

@@ -19,6 +19,10 @@
         height: auto;
         margin-top: 3em;
 
+        @media (max-width: 641px ) {
+            grid-template-columns: 1fr;
+        }
+
         .contact__input{
             width: 100%;
             height: auto;
@@ -125,6 +129,10 @@
             grid-template-columns: 1fr 1fr;
             column-gap: 15px;
             height: auto;
+
+            @media (max-width: 943px ) {
+                grid-template-columns: 1fr;
+            }
 
             li{
                 list-style: none;

@@ -11,7 +11,7 @@ export class DetailComponent implements OnInit {
 
   item: Product;
   constructor(private actRoute: ActivatedRoute,
-    private userService:ShopService) { }
+    private shopService:ShopService) { }
 
   ngOnInit(): void {
     this.loadUsers();
@@ -19,6 +19,6 @@ export class DetailComponent implements OnInit {
 
   loadUsers(){
     const productId = this.actRoute.snapshot.paramMap.get('id');
-    this.userService.getById(productId).subscribe(data => this.item = data)
+    this.shopService.getById(productId).subscribe(data => this.item = data)
   }
 }
