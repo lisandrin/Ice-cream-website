@@ -1,5 +1,11 @@
 # Dashboard
 :a: :computer:
+Hi! :wave: :blush:
+
+This project is written by Angular12, also used hand written json database server for product list and product detail page.
+You can see main, home page also product list(shop) page and selected by clicking on a button product detail page. 
+Also this project is fully responsive for Desktop, ipad or iphone. 👍
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.7.
 
 ## Development erver
